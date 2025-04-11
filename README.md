@@ -129,4 +129,4 @@ Skill Bet is a web3 application that allows users to:
 3. Yogita :
     - zk Proofs code and logic written
 ## Video Demo
-- You can watch our project demo at [clickhere](https://youtu.be/l6bwRUF3sss?si=tB5ds_7bYxnu4InV)
+- You can watch our project demo at [clickhere](https://drive.google.com/file/d/1K_T9T_7Ysku7Vd3ANL0beCvj4XBks3OV/view?usp=drivesdk)
