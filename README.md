@@ -118,3 +118,15 @@ Skill Bet is a web3 application that allows users to:
 ## Future Enhancements
 
 - Additional game integrations
+
+## Project Contributions
+1. Yash :  
+    - Made complete frontend(using react, framer motion and technologies mentioned above) and backend(using mongoDB, Node.js and other technologies listed above)  
+
+2. Yash Agrawal :  
+    - Integration ( of zk and smart contracts) and smart contracts(logic and code)  
+
+3. Yogita :
+    - zk Proofs code and logic written
+## Video Demo
+- You can watch our project demo at [clickhere](https://youtu.be/l6bwRUF3sss?si=tB5ds_7bYxnu4InV)
