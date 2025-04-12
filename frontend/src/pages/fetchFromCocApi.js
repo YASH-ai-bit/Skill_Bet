@@ -1,4 +1,4 @@
-const REACT_APP_BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8080';
+const REACT_APP_BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
 export const fetchWarDestruction = async (clanTag, warIndex = 1) => {
     const res = await fetch(`${REACT_APP_BACKEND_URL}/api/coc/warlog/${clanTag}`);
