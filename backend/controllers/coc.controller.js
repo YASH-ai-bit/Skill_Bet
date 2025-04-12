@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const COC_TOKEN = process.env.COC_TOKEN_223;
+const COC_TOKEN = process.env.COC_TOKEN_226;
 
 export const getWarlog = async (req, res) => {
     const clanTag = req.params.clanTag;
