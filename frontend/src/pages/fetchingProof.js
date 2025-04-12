@@ -1,10 +1,11 @@
+const REACT_APP_BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8080';
 export const fetchProof = async (actual, expected) => {
     try {
         // Ensure both values are numbers
         const actualValue = typeof actual === 'string' ? Number(actual) : actual;
         const expectedValue = typeof expected === 'string' ? Number(expected) : expected;
 
-        const response = await fetch('http://localhost:8080/api/gp', {
+        const response = await fetch(`${REACT_APP_BACKEND_URL}/api/gp`, {
             method: 'POST',
             body: JSON.stringify({
                 actual: actualValue,

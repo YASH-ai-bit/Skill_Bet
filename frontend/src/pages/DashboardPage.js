@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { CurrencyDollarIcon, TrophyIcon, XCircleIcon, ArrowUpIcon, ArrowDownIcon } from '@heroicons/react/24/outline';
 
-// Sample data for bets - using AI for now later will fetch using api and update using contracts and all
+// Sample data for bets - (using AI for now later will fetch using api and update using contracts and all)
 const sampleWinningBets = [
     { id: 1, game: 'Valorant', amount: 50, payout: 125, date: '2023-05-10', opponent: 'Player123' },
     { id: 2, game: 'CS:GO', amount: 75, payout: 180, date: '2023-05-15', opponent: 'GamerXYZ' },

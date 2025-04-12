@@ -1,7 +1,7 @@
-const COC_TOKEN = process.env.COC_TOKEN;
+const REACT_APP_BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8080';
 
 export const fetchWarDestruction = async (clanTag, warIndex = 1) => {
-    const res = await fetch(`http://localhost:8080/api/coc/warlog/${clanTag}`);
+    const res = await fetch(`${REACT_APP_BACKEND_URL}/api/coc/warlog/${clanTag}`);
   
     if (!res.ok) throw new Error('Failed to fetch war log');
   
