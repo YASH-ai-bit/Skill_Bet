@@ -32,10 +32,3 @@ Thumbs.db
 frontend/.cache/
 frontend/node_modules/.cache/
 backend/.cache/
-
-# Git LFS-tracked files that are too large
-*.pack
-*.webm
-*.mp4
-*.jpg
-*.png
