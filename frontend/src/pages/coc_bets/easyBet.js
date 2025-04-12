@@ -18,10 +18,11 @@ const EasyBet = () => {
     const navigate = useNavigate();
 
     const challengeRequirements = [
-        'Win 3 multiplayer battles in a row',
-        'Achieve at least 1 star in each battle',
-        'Use at least 10 troops in each attack',
-        'Complete all battles within 24 hours'
+        'Make sure your clan is in a war (not a CWL)',
+        'Make sure you are in the war',
+        'Your clan must deal at least 60% destruction to win',
+        'You must complete the required battles within the war',
+        'Your clan must win the war to claim your bet'
     ];
 
     // Check wallet connection on component mount

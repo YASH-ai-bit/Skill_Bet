@@ -18,11 +18,11 @@ const MediumBet = () => {
 
     // Example challenge requirements for medium difficulty
     const challengeRequirements = [
-        'Win 5 multiplayer battles in a row',
-        'Achieve at least 2 stars in each battle',
-        'Use at least 2 different army compositions',
-        'Destroy at least 80% of each base',
-        'Complete all battles within 36 hours'
+        'Make sure your clan is in a war (not a CWL)',
+        'Make sure you are in the war',
+        'Your clan must deal at least 80% destruction to win',
+        'You must complete the required battles within the war',
+        'Your clan must win the war to claim your bet'
     ];
 
     // Check wallet connection on component mount

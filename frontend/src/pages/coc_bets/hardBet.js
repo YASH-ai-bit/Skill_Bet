@@ -19,12 +19,11 @@ const HardBet = () => {
 
     // Example challenge requirements for hard difficulty
     const challengeRequirements = [
-        'Win 7 multiplayer battles in a row',
-        'Achieve at least 2 stars in each battle',
-        'Score at least one 3-star attack',
-        'Use at least 3 different army compositions',
-        'Defeat bases with Town Hall level equal or higher than yours',
-        'Complete all battles within 48 hours'
+        'Make sure your clan is in a war (not a CWL)',
+        'Make sure you are in the war',
+        'Your clan must deal at least 95% destruction to win',
+        'You must complete the required battles within the war',
+        'Your clan must win the war to claim your bet'
     ];
 
     // Check wallet connection on component mount
